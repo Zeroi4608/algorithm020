@@ -1,0 +1,19 @@
+// for (let i = 0; i < strs.length; i++) {
+//   let key = Array.from(strs[i]).sort().join();
+//   h[key] ? h[key].push(strs[i]) : (h[key] = [strs[i]]);
+// }
+// return Object.values(h);
+
+// 49. 字母异位词分组
+
+// sort 排序
+var groupAnagrams = function (strs, h = {}) {
+  for (let i = 0; i < strs.length; i++) {
+    let key = [...strs[i]].sort().join();
+    h[key] ? h[key].push(strs[i]) : (h[key] = [strs[i]]);
+  }
+
+  return Object.values(h);
+};
+
+console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
