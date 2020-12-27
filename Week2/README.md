@@ -4,4 +4,7 @@
 3. 本周参与进了刷题狂魔组，每天完成刷题组作业，并补回了第一周未参与的几天
 
 # 刷题狂魔组刷题打卡  
-https://github.com/Zeroi4608/learning-algorithm/blob/main/one-question-per-day/README.md
+https://github.com/Zeroi4608/learning-algorithm/blob/main/one-question-per-day/README.md  
+
+知识梳理：
+> ![avatar](img.png)
